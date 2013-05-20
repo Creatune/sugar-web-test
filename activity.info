@@ -1,0 +1,6 @@
+[Activity]
+name = MyActivity
+activity_version = 1
+bundle_id = org.sugarlabs.TestHTMLActivity
+exec = sugar-activity activity.Activity
+icon = activity-icon
