@@ -1,2 +1,2 @@
 #!/bin/sh
-exec sugar-launch org.sugarlabs.TestHTMLActivity --uri $@
+exec sugar-launch org.sugarlabs.TestWebActivity --uri $@

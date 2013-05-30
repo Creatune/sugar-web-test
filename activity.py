@@ -15,9 +15,9 @@
 # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
-from sugar3.activity.htmlactivity import HTMLActivity
+from sugar3.activity.webactivity import WebActivity
 
-class Activity(HTMLActivity):
+class Activity(WebActivity):
     def __init__(self, handle):
-        HTMLActivity.__init__(self, handle)
+        WebActivity.__init__(self, handle)
         self._web_view.load_uri(handle.uri)

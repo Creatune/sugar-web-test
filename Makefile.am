@@ -1,6 +1,6 @@
-bin_SCRIPTS = sugar-html-test
+bin_SCRIPTS = sugar-web-test
 
-activitydir = $(datadir)/sugar/activities/HTMLTest.activity
+activitydir = $(datadir)/sugar/activities/WebTest.activity
 activity_PYTHON = activity.py
 
 activityinfodir = $(activitydir)/activity
