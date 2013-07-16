@@ -16,4 +16,9 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-exec sugar-launch org.sugarlabs.TestWebActivity --uri $@
+homedir=$XDG_DATA_HOME/sugar-web-test
+logfile=$homedir/log
+
+mkdir -p $homedir
+
+exec sugar-launch org.sugarlabs.TestWebActivity --uri $@ > $logfile 2>&1
